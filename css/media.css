@@ -1,0 +1,154 @@
+/*--media for screen small--*/
+
+    .navheader{
+        display: none;
+    }
+    .headersmall{
+        display: block;
+    }
+    .headerbig{
+        display: none;
+    }
+  
+  .ul-smallpartmedain ,.ul-part-more ,.ul-screen-small{
+      display: flex;
+      list-style: none;
+  }
+  .ul-smallpartmedain li{
+      padding: 10px;
+  }
+  .navscreensmall{
+     
+      display: flex;
+     
+      justify-content: space-between;
+      right: 0px;
+      align-items: center;
+      left: 0px;
+      background-color: rgb(219, 225, 223);
+      z-index:999999;
+      position: fixed;
+     
+  }
+  .navscreensmall a{
+text-decoration: none;
+color: black;
+
+
+  }
+  .ul-screen-small{
+      display: none;
+      position: absolute;
+      left: 0px;
+      top: 60px;
+      width: 100%;
+     
+  }
+  #part-nav:checked + .ul-screen-small{
+      display: block;
+  }
+  #part-part-nav:checked +.ul-part-more{
+    display: block;
+
+  }
+  .ul-part-more{
+      display: none;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+  }
+  .ul-part-more li a{
+      padding-left: 20px;
+  }
+  
+  #part-part-nav,#part-nav{
+      display: none;
+  }
+  
+  .ul-screen-small li{
+     border: solid 1px;
+      padding: 10px;
+      background-color: rgb(212, 214, 214);
+  }
+.fa-bars{
+    padding: 5px 20px 0 0;
+    transform:scaleX(1.4)
+    
+}
+
+.buttonsignup{
+    background-color: rgb(176, 205, 236);
+    color:#000;
+}
+.fa-plus{
+    float: right;
+}
+.ul-screen-small li:hover {
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    text-shadow: 0px 0px 8px wheat;
+
+}
+
+.ul-screen-small li:nth-child(4):hover .ul-part-more li{
+    font-weight: normal;
+    font-family: none;
+    text-shadow: none;
+
+
+}
+.ul-part-more li :hover{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    text-shadow: 0px 0px 8px wheat;
+}
+
+.sect1{
+    
+    font-size: 30px;
+}
+.gets{
+    display: inline;
+}
+.gets img{
+    float: left;
+}
+.gets p{
+    
+    width: 176px;
+
+    position: relative;
+    left: 162px;
+}
+.gets h1{
+    width: 176px;
+    position: relative;
+       left: 132px;
+}
+.gets a{
+    width: 176px;
+    position: relative;
+    
+}
+footer{
+    display: inline;
+}
+.dropdown-content3 ,.dropdown-content2,.dropdown-content4,.dropdown-content6,.dropdown-content5{
+    display: none;
+}
+
+footer div{
+    border-bottom: solid 1px rgb(202, 190, 190);
+ 
+    margin: 0px 30px;
+    position: relative;
+}
+footer  p i{
+color: rgb(112, 110, 112);
+position: absolute;
+
+right: 0px;
+}

@@ -1,0 +1,91 @@
+.ulleft ,.ulright{
+    animation: doup 0.9s 1;
+    
+}
+@keyframes doup{
+    0%{
+       transform: translateY(-90px); 
+    }
+    50%{
+        transform: translateY(20px); 
+     }
+    
+    100%{ transform: translateY(0px);
+          
+    }
+}
+
+
+
+.ul-screen-small ,.ul-part-more  {
+    animation: moveup 1s 1;
+
+
+}
+@keyframes moveup{
+    0%{
+        transform: translateY(-20px);
+         font-size: 10px;
+     }
+     
+     100%{ transform: translateY(0px);
+        font-size: 20px;
+     
+    }
+ }
+ .smallpartmedain ,.fa-bars{
+    animation: moveup 1s 1;
+ }
+ 
+ .sect3 .imag3 {
+     animation: moveimg3 2.5s 1;
+   
+ }
+ @keyframes moveimg3{
+     0%{
+margin-left: 200px;
+     }
+     100%{
+margin-left: 0px;
+
+     }
+ }
+
+
+ .sect3 .imag2 {
+    animation: moveimg2 1.5s 1;
+  
+}
+@keyframes moveimg2{
+    0%{
+margin-left: 200px;
+    }
+    100%{
+margin-left: 0px;
+
+    }
+}
+
+
+
+
+.sect3 .imag1{
+    animation: moveimg1 0.5s 1;
+  
+}
+@keyframes moveimg1{
+    0%{
+margin-left: 200px;
+    }
+    100%{
+margin-left: 0px;
+
+    }
+}
+
+
+
+
+
+
+ 
